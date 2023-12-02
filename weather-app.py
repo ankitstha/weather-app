@@ -39,7 +39,7 @@ def get_weather_button_clicked():
         messagebox.showwarning("Input Error", "Please enter a city name.")
 
 # Replace 'YOUR_API_KEY' with your actual AccuWeather API key
-api_key = 'OsxcSNXMA04JGGd6WpkYxJujK5A8XATK'
+api_key = "Your_API_KEY"
 
 # GUI setup using ThemedTk
 app = ThemedTk(theme="arc")  
