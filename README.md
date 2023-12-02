@@ -24,3 +24,16 @@ Before running the application, ensure you have the following:
 ```python
 # Replace 'YOUR_API_KEY' with your actual AccuWeather API key
 api_key = "YOUR_API_KEY"
+```
+3. Run the script:
+````bash
+python weather_app.py
+````
+4. Enter a city name in the GUI and click "Get Weather" to see the current temperature and weather description.
+
+## Themes
+The app uses themes from `ttkthemes`. You can experiment with different themes by changing the `theme` parameter when creating the `ThemedTk` widget.
+
+````python
+app = ThemedTk(theme="arc")  # You can experiment with different themes like 'radiance', 'scidblue', etc.
+````
